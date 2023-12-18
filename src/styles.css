@@ -14,7 +14,7 @@ body {
   display: flex;
   justify-content: center;
   margin-top: 50px;
-  background-color: #2d2da1;
+  background-color: #14141a;
 }
 
 img,
@@ -24,7 +24,7 @@ svg {
 }
 
 svg {
-  color: white;
+  color: #a7a0a0;
   width: 70px;
   height: 70px;
 }
@@ -57,12 +57,12 @@ figure {
 }
 
 .App .user-details {
-  background-color: white;
+  background-color: rgb(211, 202, 202);
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 1rem;
-  border: 5px solid #e4783a;
+  border: 5px solid #636166;
   border-radius: 3px;
   padding: 3rem;
 }
@@ -71,7 +71,7 @@ figure {
   max-width: 150px;
   border-radius: 100%;
   margin: 0 auto;
-  border: 3px solid #e7cc42;
+  border: 3px solid #a674e0;
 }
 .App p {
   margin: 0;
@@ -96,7 +96,7 @@ figure {
   outline: transparent;
   border: none;
   padding: 0.6rem 0.8rem;
-  background-color: #e7cc42;
+  background-color: #a674e0;
   font-weight: bold;
   font-family: inherit;
   font-size: 0.8rem;
@@ -106,5 +106,5 @@ figure {
 
 .App .user-details button:hover {
   cursor: pointer;
-  background-color: #fadc46;
+  background-color: #9b999e;
 }
